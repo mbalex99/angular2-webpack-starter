@@ -5,6 +5,7 @@
   "author": "Patrick Stapleton <patrick@angularclass.com>",
   "homepage": "https://github.com/angularclass/angular2-webpack-starter",
   "license": "MIT",
+  "main"    : "main.js",
   "scripts": {
     "clean": "npm cache clean && rimraf node_modules doc typings coverage dist",
     "clean:dist": "./node_modules/.bin/rimraf dist",
