@@ -1,6 +1,7 @@
 dependencies:
   pre:
     - sudo apt-get update; sudo apt-get install g++-4.8
-    - sudo apt-get build-essential
+    - sudo apt-get install build-essential
+    - sudo apt-get install clang
   post: 
     - npm run build:prod
