@@ -1,4 +1,9 @@
+machine:
+  node:
+    version: 5.1.1
 dependencies:
+  override:
+    - npm install --dev
   pre:
     - sudo apt-get update; sudo apt-get install g++-4.8
     - sudo apt-get install build-essential
